@@ -1,1 +1,1 @@
-web: python views.py
+web: python views.py 0.0.0.0:$PORT

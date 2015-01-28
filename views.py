@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 import kinematics_calc as kCalc
+import os
 
 
 # Create flask application
@@ -21,5 +22,7 @@ def home():
 
 
 # Start flask loop
-if __name__ == "__main__":
-    app.run()
+if __name__ == '__main__':
+    # Bind to PORT if defined, otherwise default to 5000.
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
