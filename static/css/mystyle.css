@@ -1,0 +1,50 @@
+form { 
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    vertical-align: middle;
+}
+p {
+    display: table-row;
+}
+p#answer {
+    text-align: center;
+}
+h1#pageTitle {
+    text-align: center;
+}
+p#instructions {
+    display: block;
+    text-align: center;
+}
+label { 
+    display: table-cell; 
+}
+input { 
+    display: table-cell; 
+    margin: 5px;
+    border-width: 0px 0px 1px 0px;
+    border-color: black;
+    padding: 2px;
+}
+div#container {
+    display: table;
+    width: 100%;
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: middle;
+}
+div#parent {
+    display: table;
+    width: 100%;
+}
+button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}

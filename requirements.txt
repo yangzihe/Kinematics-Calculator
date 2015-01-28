@@ -1,0 +1,5 @@
+Flask==0.10
+Jinja2==2.6
+Werkzeug==0.8.3
+requests==0.11.1
+SymPy==0.7.6 
