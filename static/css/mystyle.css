@@ -11,11 +11,13 @@ p {
 p#answer {
     text-align: center;
 }
-h1#pageTitle {
-    text-align: center;
-}
-p#instructions {
+.instructions {
     display: block;
+    width: 500px;
+    text-align: left;
+    margin: 1em auto 1em auto;
+}
+h1#pageTitle {
     text-align: center;
 }
 label { 
@@ -31,7 +33,7 @@ input {
 div#container {
     display: table;
     width: 100%;
-    width: 300px;
+    width: 500px;
     height: 300px;
     border: 2px solid;
     margin-right: auto;
