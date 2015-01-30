@@ -353,10 +353,18 @@ section.featured.inner {
 	padding: 150px 0 50px;
 }
   
+/*===========================
+  ----- Miscellaneous ----
+=========================== */
+
 .instructions {
     display: block;
     width: 600px;
     text-align: justify;
     margin: 1em auto 1em auto;
+}
+
+p#answer {
+	margin-top: 20px;
 }
 

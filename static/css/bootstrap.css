@@ -1978,7 +1978,7 @@ select[multiple].input-lg {
 }
 @media (min-width: 768px) {
   .form-horizontal .control-label {
-    text-align: right;
+    text-align: center;
   }
 }
 .form-horizontal .has-feedback .form-control-feedback {
@@ -5828,4 +5828,3 @@ td.visible-print {
     display: none !important;
   }
 }
-/*# sourceMappingURL=bootstrap.css.map */
