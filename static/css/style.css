@@ -364,7 +364,11 @@ section.featured.inner {
     margin: 1em auto 1em auto;
 }
 
-p#answer {
+#answer {
 	margin-top: 20px;
 }
 
+.extended-units {
+	margin-left: 20px;
+	margin-right: 20px;
+}
