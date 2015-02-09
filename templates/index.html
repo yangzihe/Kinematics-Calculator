@@ -47,37 +47,50 @@
                                 <div class="form-group">
                                     <label for="acceleration" class="control-label col-xs-2">a</label>
                                     <div class="col-xs-10">
-                                        <input type="text" class="form-control" id="acceleration" placeholder="Acceleration">
+                                        <div class-"input-group">
+                                            <input type="text" class="form-control" id="acceleration" placeholder="Acceleration">
+                                            <span class="input-group-addon">m/s<sup>2</sup></span>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="displacement" class="control-label col-xs-2">x</label>
                                     <div class="col-xs-10">
-                                        <input type="text" class="form-control" id="displacement" placeholder="Displacement">
+                                        <div class-"input-group">
+                                            <input type="text" class="form-control" id="displacement" placeholder="Displacement">
+                                            <span class="input-group-addon">m</span>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="initVelocity" class="control-label col-xs-2">v<sub>0</sub></label>
                                     <div class="col-xs-10">
-                                        <input type="text" class="form-control" id="initVelocity" placeholder="Initial Velocity">
+                                        <div class-"input-group">
+                                            <input type="text" class="form-control" id="initVelocity" placeholder="Initial Velocity">
+                                            <span class="input-group-addon">m/s</span>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="velocity" class="control-label col-xs-2">v</label>
                                     <div class="col-xs-10">
-                                        <input type="text" class="form-control" id="velocity" placeholder="Current velocity">
+                                        <div class-"input-group">
+                                            <input type="text" class="form-control" id="velocity" placeholder="Current velocity">
+                                            <span class="input-group-addon">m/s</span>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="time" class="control-label col-xs-2">t</label>
                                     <div class="col-xs-10">
-                                        <input type="text" class="form-control" id="time" placeholder="Time">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="time" placeholder="Time">
+                                            <span class="input-group-addon">s</span>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="form-group">
-
-                                </div>
                             </form>
+
                             <div class="col-xs-offset-2 col-xs-10">
                                 <button type="button" onclick="submit()" class="btn btn-primary">Calculate</button>
                                 <p id="answer"></p>
@@ -108,7 +121,7 @@
         </div>
         </section>
             
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/request.js') }}"></script>
     <script src="{{ url_for('static', filename='js/modernizr-2.6.2-respond-1.1.0.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/jquery.easing.1.3.js') }}"></script>
