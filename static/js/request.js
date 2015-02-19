@@ -1,5 +1,4 @@
 function submit() {
-    console.log("hi")
     var a = document.getElementById('acceleration');
     var x = document.getElementById('displacement');
     var v0 = document.getElementById('initVelocity');
