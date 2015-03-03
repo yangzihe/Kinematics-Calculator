@@ -11,7 +11,7 @@ def toFloat(first, second, third, fourth):
             ansList[i] = float(ansList[i])
     return ansList
 
-
+# Find the irrelevant/missing variable to determine which kinematic equation to use
 def findExVar(a, x, v0, v, t):
     if a == 'x':
         return 'a'
